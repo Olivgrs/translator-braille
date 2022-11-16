@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<input id="entry" class="text-entry" type="text" oninput="replace()" placeholder="Type Text Here">
+<div class="text-center">
+  <a id="result" title="Braille"></a>
+</div>
+
+<script>
+  var entry = document.getElementById('entry');
+
+  function replace() {
+    document.getElementById('result').innerHTML = entry.value.toLowerCase();
+    document.getElementById('result').title = entry.value;
+  }
+</script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "braille";
+  src: url("../fonts/braille-webfont.woff2") format("woff2"), url("../fonts/braille-webfont.woff") format("woff"), url("../fonts/braille.ttf") format("truetype");
+}
+
+
+#result {
+  font-family: "braille", sans-serif;
+  font-size: 10em;
+  text-shadow: -2px 2px 3px #0a0a0a;
+  word-wrap: break-word;
+}
